@@ -97,33 +97,16 @@ img {
     display: none;
 }
 
-
-
-
-
-
-
-
 /* submit form */
 .form-label {
     font-size: 20px;
     font-weight: 500;
 }
+/* submit form */
+.lead {
+    font: 2em sans-serif;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 /* footer */
 .footerText {
     font-size: 16px;
