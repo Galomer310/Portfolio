@@ -1,0 +1,144 @@
+/* NavBar */
+.navberImg {
+    height: 3em;
+    border: none;
+    background-color: aliceblue;
+    margin-left: 5em ;
+}
+/* NavBar */
+.navberImg:hover {
+    font-size: 1.1rem;
+    transition: 0.25s ease-in-out;
+    background-color: rgba(158, 76, 158);
+}
+/* NavBar */
+.nav-item:hover {
+    background-color: rgb(136, 16, 136, 0.5);
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+
+
+
+/* first and second jumbotron */
+.jumbotronTxt {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.aboutMe:hover {
+    font-size: 1.4rem;
+    transition: 0.25s ease-in-out;
+    background-color: rgb(136, 16, 136, 0.3);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* my skills */
+.geToKm {
+    background-color: rgba(126, 117, 126, 0.1);
+    border-radius: 10px;
+    padding: 25px;
+}
+/* my skills */
+.getToKnow {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+/* projects */
+.lead {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* projects */
+.projectsP {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    margin-right: 5rem;
+}
+/* projects */
+.projectsP:hover {
+    font-size: 1.4rem;
+    transition: 0.25s ease-in-out;
+    background-color: rgb(136, 16, 136, 0.3);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.projectsP2:hover {
+    font-size: 1.4rem;
+    transition: 0.25s ease-in-out;
+    background-color: rgb(136, 16, 136, 0.3);
+    border-radius: 10px;
+    padding: 10px;
+}
+/* projects */
+img {
+    margin-top: 10px;
+    margin-left: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+/* projects */
+.caseStudyBtn {
+    background-color: purple;
+    margin: 20px 20px 30px 0px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: white;
+    font-size: large;
+    font-weight: 600;
+}
+/* projects */
+#learnedSection {
+    display: none;
+}
+
+/* Contact me page */
+.contactBtn {
+    margin-left: 15rem;
+    background-color: purple;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 30px;
+}
+
+/* submit form */
+.form-label {
+    font-size: 20px;
+    font-weight: 500;
+}
+/* submit form */
+.submitBtn {
+    background-color: rgb(136, 16, 136, 0.5);
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 6.5em;
+    padding: 8px 30px;
+}
+/* submit form */
+.submitBtn:hover {
+    background-color: rgb(136, 16, 136);
+    
+    color: white;
+    transition: background-color 0.25s ease-in-out;
+}
+
+/* footer */
+.footerText {
+    font-size: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .projectsP {
+        margin-right: 20px; /* Reduce margin on smaller screens */
+    }
+    .caseStudyBtn {
+        margin-left: 20px; /* Adjust margin for better alignment */
+    }
+}
