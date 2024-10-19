@@ -21,8 +21,10 @@
                 event.preventDefault();
                 emailjs.sendForm('service_52m6nw6', 'contact_form', this)
                     .then(() => {
+                      alert('The message was sent successfully!');
                         console.log('SUCCESS!');
                     }, (error) => {
+                      alert('The message was not sent');
                         console.log('FAILED...', error);
                     });
             });
