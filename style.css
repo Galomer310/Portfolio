@@ -97,36 +97,32 @@ img {
     display: none;
 }
 
-/* Contact me page */
-.contactBtn {
-    margin-left: 15rem;
-    background-color: purple;
-    color: white;
-    padding: 10px 50px;
-    border-radius: 30px;
-}
+
+
+
+
+
+
 
 /* submit form */
 .form-label {
     font-size: 20px;
     font-weight: 500;
 }
-/* submit form */
-.submitBtn {
-    background-color: rgb(136, 16, 136, 0.5);
-    font-weight: 600;
-    font-size: 20px;
-    border-radius: 10px;
-    margin-left: 6.5em;
-    padding: 8px 30px;
-}
-/* submit form */
-.submitBtn:hover {
-    background-color: rgb(136, 16, 136);
-    
-    color: white;
-    transition: background-color 0.25s ease-in-out;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* footer */
 .footerText {
